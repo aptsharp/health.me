@@ -1,0 +1,35 @@
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.patient {
+  background-color: #4d008a;
+  color: #fff;
+  border-radius: 5px 5px 0 5px;
+  margin-left: 20%;
+}
+
+.bot {
+  background-color: #00c8bb;
+  border-radius: 5px 5px 5px 0;
+}
+
+button {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #777;
+  border-color: #777;
+  &:active, &:focus, &:target {
+    background-color: #555!important;
+  }
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
